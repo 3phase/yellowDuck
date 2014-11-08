@@ -26,6 +26,7 @@ public final class R {
         public static final int splash_patka=0x7f020001;
     }
     public static final class id {
+<<<<<<< HEAD
         public static final int Level=0x7f080004;
         public static final int action_settings=0x7f080007;
         public static final int backBtn=0x7f080003;
@@ -34,6 +35,14 @@ public final class R {
         public static final int menu=0x7f080002;
         public static final int splash_patka=0x7f080006;
         public static final int textView1=0x7f080001;
+=======
+        public static final int action_settings=0x7f080005;
+        public static final int button1=0x7f080001;
+        public static final int button2=0x7f080002;
+        public static final int container=0x7f080003;
+        public static final int imageView1=0x7f080004;
+        public static final int textView1=0x7f080000;
+>>>>>>> 34f33aa1dc8fa74cdb032e3495c68bff798adfa1
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -48,10 +57,17 @@ public final class R {
     public static final class string {
         public static final int action_settings=0x7f050002;
         public static final int app_name=0x7f050000;
+<<<<<<< HEAD
         public static final int hello_patka=0x7f050001;
         public static final int hello_world=0x7f050005;
         public static final int title_activity_main=0x7f050003;
         public static final int title_activity_play=0x7f050004;
+=======
+        public static final int hello_world=0x7f050001;
+        public static final int homeTitle=0x7f050003;
+        public static final int patkaButt=0x7f050005;
+        public static final int startButton=0x7f050004;
+>>>>>>> 34f33aa1dc8fa74cdb032e3495c68bff798adfa1
     }
     public static final class style {
         /** 

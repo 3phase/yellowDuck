@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">The Patka</string>
-    <string name="hello_patka">Hello!My name is Patka</string>
+    <string name="app_name">DuckerZ</string>
+    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+<<<<<<< HEAD
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_play">PlayActivity</string>
     <string name="hello_world">Hello world!</string>
+=======
+    <string name="homeTitle">What is RubberDuck debugging?</string>
+    <string name="startButton">Start</string>
+    <string name="patkaButt">Meet the Duck!</string>
+>>>>>>> 34f33aa1dc8fa74cdb032e3495c68bff798adfa1
 
 </resources>

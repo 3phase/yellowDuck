@@ -24,7 +24,7 @@
         </activity>
         <activity
             android:name="com.yellow_patka.thepatka.MainActivity"
-            android:label="@string/title_activity_main" >
+       >
         </activity>
         <activity
             android:name="com.yellow_patka.thepatka.PlayActivity"
