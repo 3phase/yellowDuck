@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".SplashActivity"
+            android:name="com.yellow_patka.thepatka.SplashActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,15 +22,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" >
+        <activity android:name="com.yellow_patka.thepatka.MainActivity" >
         </activity>
         <activity
-            android:name=".PlayActivity"
+            android:name="com.yellow_patka.thepatka.PlayActivity"
             android:label="@string/title_activity_play" >
         </activity>
         <activity
-            android:name=".SelectActivity"
+            android:name="com.yellow_patka.thepatka.SelectActivity"
             android:label="@string/title_activity_select" >
+        </activity>
+        <activity
+            android:name="com.yellow_patka.thepatka.MeetTheDuckActivity"
+            android:label="@string/title_activity_meet_the_duck" >
         </activity>
     </application>
 

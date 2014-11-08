@@ -27,4 +27,10 @@ public class PlayActivity extends Activity implements OnClickListener{
 		}
 		
 	}
+	
+	protected void onPause() {
+		// TODO Auto-generated method stub
+		super.onPause();
+		finish();
+	}
 }
