@@ -84,36 +84,6 @@
 	        android:text="@string/lvl4"
 	        android:textColor="#5abb93"
 	        android:textSize="30sp" />
-	
-	    <Button
-	        android:id="@+id/lvl5_btn"
-	        android:layout_width="270dp"
-	        android:layout_height="50dp"
-	        android:layout_marginTop="16dp"
-	        android:background="@layout/buttonstyle"
-	        android:text="@string/lvl5"
-	        android:textColor="#5abb93"
-	        android:textSize="30sp" />
-	    
-	    <Button
-	        android:id="@+id/lvl42_btn"
-	        android:layout_width="270dp"
-	        android:layout_height="50dp"
-	        android:layout_marginTop="16dp"
-	        android:background="@layout/buttonstyle"
-	        android:text="@string/lvl42"
-	        android:textColor="#5abb93"
-	        android:textSize="30sp" />
-	    
-	    <Button
-	        android:id="@+id/lvl43_btn"
-	        android:layout_width="270dp"
-	        android:layout_height="50dp"
-	        android:layout_marginTop="16dp"
-	        android:background="@layout/buttonstyle"
-	        android:text="@string/lvl42"
-	        android:textColor="#5abb93"
-	        android:textSize="30sp" />
 	    
 	    </LinearLayout>
     </ScrollView>
