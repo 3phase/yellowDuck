@@ -1,0 +1,119 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lvl_2_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5abb93"
+    android:orientation="vertical"
+    tools:context="com.yellow_patka.thepatka.Level2Activity"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:id="@+id/lvl_2_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/menu_margin" >
+
+        <Button
+            android:id="@+id/lvl_2_backBtn"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@layout/buttonstyle"
+            android:text="@string/back_str"
+            android:textColor="#5abb93"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/lvl_2_Level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text=""
+            android:textColor="#FCFF00"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lvl_2_textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/menu_margin"
+        android:text="@string/task_str"
+        android:textColor="#FCFF00" />
+
+    <ScrollView
+        android:id="@+id/lvl_2_codeVewe"
+        android:layout_width="match_parent"
+        android:layout_height="275dp"
+        android:layout_margin="20dp"
+        android:background="#FFFFFF" >
+
+        <LinearLayout
+            android:id="@+id/lvl_2_code_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/menu_margin"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/lvl_2_line1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/lvl_2_line2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/lvl_2_line3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/lvl_2_line4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/lvl_2_line5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/lvl_2_line6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+            
+            <TextView
+                android:id="@+id/lvl_2_line7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+            <TextView
+                android:id="@+id/lvl_2_line8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </LinearLayout>
+        
+        
+    </ScrollView>
+
+    <Button
+        android:id="@+id/lvl_2_submitBtn"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_margin="@dimen/menu_margin"
+        android:background="@layout/buttonstyle"
+        android:textColor="#5abb93"
+        android:textSize="30sp"
+        android:text="@string/submit_str" />
+
+</LinearLayout>
